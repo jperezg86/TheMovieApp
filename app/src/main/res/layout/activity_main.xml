@@ -6,14 +6,14 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <View
+   <!-- <View
         android:layout_width="match_parent"
         android:layout_height="3dp"
         android:background="@color/colorDivider"
         app:layout_constraintBottom_toBottomOf="@id/tabLayout"
         >
 
-    </View>
+    </View> -->
 
     <com.google.android.material.tabs.TabLayout
         android:id="@+id/tabLayout"
@@ -24,6 +24,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:tabIndicatorHeight="3dp"
+        app:tabIndicatorColor="@color/cardview_dark_background"
         app:tabMode="fixed"
         app:tabPaddingBottom="8dp"
         app:tabPaddingTop="15dp" />
